@@ -1,0 +1,66 @@
+@media only screen and  (min-width: 576px) and (max-width: 768px) {
+    main > section.parallax {
+        width: 100%;
+        height: 957px;
+        background: url("../../images/img/Place Your Image Here (Double Click to Edit).jpg") no-repeat fixed center center;
+        background-size: cover;
+        padding-top: 240px;
+        position: relative;
+        top: 0;
+    }
+
+    main > section.parallax > h1 {
+        width: 100%;
+        margin-left: 3%;
+        font-size: 5.72rem;
+        text-transform: uppercase;
+        color: #deb37e;
+        text-shadow: 3px -3px 3px rgba(84, 82, 79, 22%);
+        line-height: 5.72rem;
+        font-family: open_sansextrabold;
+    }
+
+    main > section.parallax > em {
+        display: block;
+        width: 50%;
+        margin-left: 3%;
+        margin-top: 10px;
+        font-size: 1.56rem;
+        text-transform: uppercase;
+        color: #54524f;
+        font-family: open_sansextrabold;
+    }
+
+    main > section.parallax > a {
+        display: block;
+        width: 180px;
+        margin-left: 3%;
+        margin-top: 60px;
+        padding: 3px 5px;
+        text-align: center;
+        font-size: 1.56rem;
+        text-transform: uppercase;
+        color: #776c64;
+        text-decoration: none;
+        background-color: #fdfdfd;
+        border-radius: 30px;
+        transition: all 300ms linear;
+        font-family: open_sansextrabold;
+    }
+
+    main > section.parallax > a:hover {
+        background-color: #776c64;
+        color: #deb37e;
+    }
+
+    main > section.parallax > p {
+        width: 40%;
+        margin-left: 3%;
+        margin-top: 20px;
+        text-transform: uppercase;
+        color: #54524f;
+        font-family: open_sansitalic;
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+}

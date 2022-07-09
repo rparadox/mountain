@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url("../fonts/opensans-extrabold/OpenSans-ExtraBold.ttf");
+    src: url("../fonts/opensans-extrabold/opensans-extrabold-webfont.woff");
+    src: url("../fonts/opensans-extrabold/opensans-extrabold-webfont.woff2");
+}
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url("../fonts/opensans-italic/OpenSans-Italic.ttf");
+    src: url("../fonts/opensans-italic/opensans-italic-webfont.woff");
+    src: url("../fonts/opensans-italic/opensans-italic-webfont.woff2");
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url("../fonts/opensans-regular/OpenSans-Regular.ttf");
+    src: url("../fonts/opensans-regular/opensans-regular-webfont.woff");
+    src: url("../fonts/opensans-regular/opensans-regular-webfont.woff2");
+
+}
+
+main {
+    width: 100%;
+}

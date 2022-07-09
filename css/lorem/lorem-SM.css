@@ -1,0 +1,47 @@
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    section.lorem {
+        width: 100%;
+        padding-top: 69px;
+        background-color: white;
+    }
+
+    section.lorem > div {
+        width: 75%;
+        height: 135px;
+        margin: 9% auto;
+        text-align: center;
+    }
+
+    section.lorem > div > strong {
+        display: inline-block;
+        font-size: 1.8rem;
+        color: #deb37e;
+        font-family: open_sansregular;
+        font-weight: bold;
+    }
+
+    section.lorem > div > p {
+        font-family: open_sansregular;
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+
+    section.lorem > p {
+        width: 80%;
+        font-size: 1.3rem;
+        font-family: open_sansregular;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    section.lorem > span {
+        display: block;
+        width: 100%;
+        font-size: 1.3rem;
+        margin-top: 60px;
+        text-align: center;
+        font-family: open_sansregular;
+        font-weight: bold;
+    }
+}

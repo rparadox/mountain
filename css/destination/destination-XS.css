@@ -1,0 +1,115 @@
+@media only screen and (max-width: 576px){
+    main > section.destination {
+        width: 100%;
+        height: 800px;
+        background-color: white;
+    }
+
+    main > section.destination > h2 {
+        width: 100%;
+        color: #e2a355;
+        font-size: 3.9rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: open_sansextrabold;
+    }
+
+    main > section.destination > p {
+        width: 100%;
+        margin: 0 auto;
+        color: #7f7770;
+        font-size: 1.7rem;
+        text-align: center;
+        font-family: open_sansregular;
+    }
+
+    main > section.destination > div {
+        display: inline-block;
+        height: 200px;
+        width: 23.5%;
+        margin-top: 87px;
+        margin-left: 6%;
+        vertical-align: top;
+        background-color: #7f7770;
+        transition: all 300ms linear;
+    }
+
+    main > section.destination > div:nth-of-type(1) {
+        margin-left: 8.7%;
+    }
+
+    main > section.destination > div:hover {
+        background-color: #3d3022;
+    }
+
+    main > section.destination > div > div {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+
+    main > section.destination > div > div > img {
+        width: 100%;
+        height: inherit;
+        transition: all 300ms linear;
+    }
+
+    main > section.destination > div:hover > div > img {
+        transform: scale(1.1, 1.1);
+        filter: grayscale(100%);
+    }
+
+    main > section.destination > div > h3 {
+        width: 100%;
+        font-size: 1rem;
+        color: white;
+        font-family: open_sansregular;
+        font-weight: bold;
+        padding-left: 5%;
+        margin-bottom: 15px;
+        transition: all 300ms linear;
+    }
+
+    main > section.destination > div:hover > h3 {
+        color: #e2a355;
+    }
+
+    main > section.destination > div > p {
+        width: 100%;
+        font-size: 0.4rem;
+        color: white;
+        font-family: open_sansregular;
+        padding-left: 5%;
+        transition: all 300ms linear;
+    }
+
+    main > section.destination > div:hover > p {
+        color: #e2a355;
+    }
+
+    main > section.destination > a {
+        display: inline-block;
+        width: 334px;
+        height: 75px;
+        line-height: 75px;
+        text-align: center;
+        color: white;
+        background-color: #7f7770;
+        border-radius: 50px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-top: 55px;
+        margin-left: calc(50% - 334px / 2);
+        font-size: 1.53rem;
+        font-family: open_sansextrabold;
+        transition: all 300ms linear;
+    }
+
+    main > section.destination > a:hover {
+        color: #e2a355;
+        background-color: #3d3022;
+    }
+}
